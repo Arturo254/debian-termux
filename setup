@@ -25,7 +25,7 @@ sleep 3
 
 echo -e "\e[34m█INSTALANDO PROOT"
 
-apt install proot-distro -y 
+pkg install proot-distro -y 
 
 sleep 2
 
