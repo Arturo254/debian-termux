@@ -1,0 +1,58 @@
+
+#!/bin/bash/
+
+clear
+
+
+cat box.cow
+
+
+
+echo "								"
+echo "								"
+echo "								"
+
+
+
+echo -e "\e[34m█INSTALANDO DEBIAN"
+
+
+cd
+
+
+sleep 3
+
+
+echo -e "\e[34m█INSTALANDO PROOT"
+
+apt install proot-distro -y 
+
+sleep 2
+
+ clear
+ 
+  echo " " 
+
+
+  echo -e "\e[31m█INSTALANDO LA TERMINAL DE DEBIAN"
+
+ proot-distro install debian 
+
+ sleep 1 
+
+ mv $HOME/debian-termux/debian $PREFIX/bin/
+ 
+ 
+  cd $PREFIX/bin/
+
+
+ chmod 777 debian
+ 
+  chmod +x debian
+  
+   echo -e"\e[34m█FIN,SOLO UTILIZA EL COMANDO 'debian'"
+
+
+  
+clear 
+
